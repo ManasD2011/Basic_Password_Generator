@@ -4,9 +4,6 @@ Usage
 python password_gen.py <length> [count]
 Examples
 
-#Generate one 12-character password (Default)
-python password_gen.py
-
 # Generate one 16-character password
 python password_gen.py 16
 
@@ -14,15 +11,14 @@ python password_gen.py 16
 python password_gen.py 20 5
 
 
-#Features
-
+Features
 Uses cryptographically secure random generation
 Includes letters, numbers, and symbols
 Excludes confusing characters (I, l, 1, O, 0)
 Ensures each password has at least one character from each type
 
-#Requirements
 
+Requirements
 Python 3.6+
 
 #How It Works
